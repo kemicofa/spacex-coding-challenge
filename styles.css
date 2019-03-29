@@ -1,0 +1,88 @@
+/** Global styles */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: black;
+}
+
+header, header > div {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: lightskyblue;
+    padding: 10px;
+}
+
+header input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+header > * {
+    margin: 0 20px;
+}
+
+header img {
+    max-width: 300px;
+    height: auto;
+}
+
+/** Output styles */
+
+.header {
+    padding: 10px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.sub-header {
+    text-align: center;
+}
+
+.unknown {
+    background-color: lightgray;
+}
+
+.successful {
+    background-color: lightgreen;
+}
+
+.failure {
+    background-color: red;
+}
+.failure i, .failure h2 {
+    color: white;
+}
+
+.not-available {
+    width: 560px;
+    height: 315px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+#output {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#output > div {
+    margin: 5px;
+    background-color: lightskyblue;
+}
+
+#output .footer {
+    text-align: center;
+}
